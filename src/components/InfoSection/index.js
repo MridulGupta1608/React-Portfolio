@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from '../ButtonElement';
 import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Img } from './InfoElements';
-import CV from '../../assets/Toufiq_Shaikh_CV.pdf';
+import CV from '../../assets/Mridul-Resume.pdf';
 
 const InfoSection = ({ lightText, darkText, lightBg, id, imgStart, topLine, headline, description, buttonLabel, img, alt, dark, dark2, primary }) => {
     return (
@@ -17,7 +17,7 @@ const InfoSection = ({ lightText, darkText, lightBg, id, imgStart, topLine, head
                                 <BtnWrap>
                                     <Button 
                                         href={CV} 
-                                        download='Toufiq_Shaikh_CV'
+                                        download='Mridul-Resume.pdf'
                                         target='_blank'
                                         offset={-80}
                                         primary={primary ? 1: 0}

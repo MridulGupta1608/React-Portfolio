@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaInstagram, FaLinkedin, } from 'react-icons/fa';
+import { FaGithub, FaInstagram, FaLinkedin, FaMailBulk, FaPhone, } from 'react-icons/fa';
 import { ContactContainer, ContactWrapper, ContactHead, ContactH2, ContactP, ContactLinksContainer, ContactLink } from './ContactElements';
 
 const Contact = () => {
@@ -11,15 +11,21 @@ const Contact = () => {
                     <ContactP>How do you take your coffee?</ContactP>
                 </ContactHead>
                 <ContactLinksContainer>
-                    <ContactLink href='//github.com/midynoob' target='_blank' >
+                    <ContactLink href='https://github.com/MridulGupta1608' target='_blank' >
                         <FaGithub />Github
                     </ContactLink>
-                    <ContactLink href='//www.linkedin.com/in/toufiq-shaikh-2000' target='_blank' >
+                    <ContactLink href='//www.linkedin.com/in/mridul-gupta-27948119a' target='_blank' >
                         <FaLinkedin />Linkedin
                     </ContactLink>
-                    <ContactLink href='//instagram.com/_being_lazy____/' target='_blank' >
-                        <FaInstagram />Instagram
+                    <ContactLink href='tel:+918093567950' target='_blank' >
+                        <FaPhone />Phone No.
                     </ContactLink>
+                    <ContactLink href='mailto:mridulg99@gmail.com' target='_blank' >
+                        <FaMailBulk />Email
+                    </ContactLink>
+                    {/* <ContactLink href='//instagram.com/_being_lazy____/' target='_blank' >
+                        <FaInstagram />Instagram
+                    </ContactLink> */}
                 </ContactLinksContainer>
 
             </ContactWrapper>

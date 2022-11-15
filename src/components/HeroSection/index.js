@@ -17,19 +17,12 @@ const [hover, setHover] = useState(false);
             </HeroBg>
             <HeroContent>
                 <HeroH1>
-                    Hey I'm Toufiq Shaikh
+                    Mridul Gupta
                 </HeroH1>
                 <HeroP>
                     a web developer
                 </HeroP>
-                {/* <HeroBtnWrapper>
-                    <Button to='signup' onMouseEnter={onHover} onMouseLeave={onHover} 
-                        primary='true'
-                        dark='true'
-                    >
-                        Get Started {hover ? <ArrowForward /> : <ArrowRight />}
-                    </Button>
-                </HeroBtnWrapper> */}
+                
             </HeroContent>
         </HeroContainer>
     )

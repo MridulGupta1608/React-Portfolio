@@ -27,7 +27,7 @@ const Navbar = ({toggle}) => {
             <Nav scrollNav={scrollNav} >
                 <NavbarContainer>
                     <NavLogo to="/" onClick={toggleHome} >
-                        midy
+                        Welcome
                     </NavLogo>
                     <MobileIcon onClick={toggle} >
                         <FaBars />
@@ -48,9 +48,7 @@ const Navbar = ({toggle}) => {
                                 Contact
                             </NavLinks>
                         </NavItem>
-                        {/* <NavBtn>
-                            <NavBtnLink to='/signin'>Sign In</NavBtnLink>
-                        </NavBtn> */}
+                        
                     </NavMenu>
                 </NavbarContainer>
             </Nav>

@@ -22,16 +22,7 @@ const Footer = () => {
                                 <FooterLinkS to='about' smooth={true} duration={500} spy={true} exact='true' offset={-80} >About me</FooterLinkS>
                                 <FooterLinkS to='contact' smooth={true} duration={500} spy={true} exact='true' offset={-80} >Contact</FooterLinkS>
                         </FooterLinkItems>
-                        {/* <FooterLinkItems>
-                            <FooterLinkTitle> 
-                                About us
-                            </FooterLinkTitle>
-
-                                <FooterLink to="/" >About us</FooterLink>
-                                <FooterLink to="/" >About us</FooterLink>
-                                <FooterLink to="/" >About us</FooterLink>
-                                <FooterLink to="/" >Sign in</FooterLink>
-                        </FooterLinkItems> */}
+                        
                     </FooterLinksWrapper>
 
                     <FooterLinksWrapper>
@@ -40,39 +31,19 @@ const Footer = () => {
                                 Social Media
                             </FooterLinkTitle>
 
-                                <FooterLink href='//github.com/midynoob' target='_blank' >Github</FooterLink>
-                                <FooterLink href='//www.linkedin.com/in/toufiq-shaikh-2000' target='_blank' >LinkedIn</FooterLink>
-                                <FooterLink href='//instagram.com/_being_lazy____/' target='_blank' >Instagram</FooterLink>
-                        </FooterLinkItems>
-                        {/* <FooterLinkItems>
-                            <FooterLinkTitle> 
-                                About us
-                            </FooterLinkTitle>
+                                <FooterLink href='https://github.com/MridulGupta1608' target='_blank' >Github</FooterLink>
+                                <FooterLink href='//www.linkedin.com/in/mridul-gupta-27948119a' target='_blank' >LinkedIn</FooterLink>
 
-                                <FooterLink to="/" >About us</FooterLink>
-                                <FooterLink to="/" >About us</FooterLink>
-                                <FooterLink to="/" >About us</FooterLink>
-                                <FooterLink to="/" >Sign in</FooterLink>
-                        </FooterLinkItems> */}
+                        </FooterLinkItems>
+                        
                     </FooterLinksWrapper>
 
                 </FooterLinksContainer>
                 <SocialMedia>
                     <SocialMediaWrap>
-                        <SocialLogo to='/' onClick={toggleHome} >midy</SocialLogo>
+                        <SocialLogo to='/' onClick={toggleHome} >Welcome</SocialLogo>
                         <Text>Built with ReactJs</Text>
-                        <WebsiteRights>midy © 2021 All rights reserved.</WebsiteRights>
-                        {/* <SocialIcons>
-                            <SocialIconLink href='//www.twitter.com/xyz' traget='_blank' aria-label='Facebook'>
-                                <FaFacebook />
-                            </SocialIconLink>
-                            <SocialIconLink href='/' traget='_blank' aria-label='Facebook'>
-                                <FaFacebook />
-                            </SocialIconLink>
-                            <SocialIconLink href='/' traget='_blank' aria-label='Facebook'>
-                                <FaFacebook />
-                            </SocialIconLink>
-                        </SocialIcons> */}
+                        <WebsiteRights>© 2021 All rights reserved.</WebsiteRights>
                         
                     </SocialMediaWrap>
                 </SocialMedia>
